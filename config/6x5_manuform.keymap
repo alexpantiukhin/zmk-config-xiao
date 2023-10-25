@@ -22,11 +22,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |   | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC  &none      &none    &none      &none      &none    &kp N6         &kp N7      &kp N8     &kp N9   &kp N0    &kp INS
-&kp Q    &kp W      &kp E    &kp R      &kp T      &none    &kp Y          &kp U       &kp I      &kp O    &kp P     &kp N1
-&kp A    &kp S      &kp D    &kp F      &kp G      &kp TAB  &kp RIGHT_ALT  &kp J       &kp K      &kp L    &kp SEMI  &kp N2
-&kp Z    &kp X      &kp C    &kp V      &kp B      &kp DEL  &kp BSPC       &kp M       &kp COMMA  &kp DOT  &kp FSLH  &kp N3
-&none    &kp GRAVE  &kp SQT  &kp SPACE  &kp LCTRL  &mo 1    &mo 2          &kp RSHIFT  &kp ENTER  &kp N6   &kp N5    &kp N4
+&kp ESC  &none      &none    &none      &none      &none    &none          &none       &none      &none             &none              &kp INS
+&kp Q    &kp W      &kp E    &kp R      &kp T      &none    &none          &kp Y       &kp U      &kp I             &kp O              &kp P
+&kp A    &kp S      &kp D    &kp F      &kp G      &kp TAB  &kp RIGHT_ALT  &kp H       &kp J      &kp K             &kp L              &kp SEMICOLON
+&kp Z    &kp X      &kp C    &kp V      &kp B      &kp DEL  &kp BSPC       &kp N       &kp M      &kp COMMA         &kp PERIOD         &kp SLASH
+&none    &kp GRAVE  &kp SQT  &kp SPACE  &kp LCTRL  &mo 1    &mo 2          &kp RSHIFT  &kp ENTER  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none
             >;
         };
 
@@ -39,11 +39,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp LS(LG(S))         &bootloader   &none         &none         &none         &none   &none &kp N7  &kp N8     &kp N9   &bootloader     &kp GRAVE
-&kp NON_US_BACKSLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none   &kp Y &kp U   &kp I      &kp O    &kp P           &kp MINUS
-&none                 &bt BT_SEL 4  &none         &none         &none         &none   &kp H &kp J   &kp K      &kp L    &kp SEMI        &kp SQT
-&none                 &none         &none         &none         &bt BT_CLR    &none   &kp N &kp M   &kp COMMA  &kp DOT  &kp FSLH        &kp RSHFT
-&none                 &kp K_APP     &out OUT_TOG  &trans        &trans        &trans  &kp N &kp M   &kp COMMA  &kp DOT  &kp FSLH        &kp RSHFT
+&kp LS(LG(S))         &bootloader   &none         &none         &none         &none   &none  &kp N7  &kp N8     &kp N9   &bootloader  &kp GRAVE
+&kp NON_US_BACKSLASH  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none   &kp Y  &kp U   &kp I      &kp O    &kp P        &kp MINUS
+&none                 &bt BT_SEL 4  &none         &none         &none         &none   &kp H  &kp J   &kp K      &kp L    &kp SEMI     &kp SQT
+&none                 &none         &none         &none         &bt BT_CLR    &none   &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp RSHFT
+&none                 &kp K_APP     &out OUT_TOG  &trans        &trans        &trans  &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH     &kp RSHFT
             >;
         };
 
