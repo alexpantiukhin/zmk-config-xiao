@@ -10,7 +10,7 @@ endif
 
 if SHIELD_6x5_MANUFORM_LEFT || SHIELD_SHIELD_MY_BOARD_RIGHT
 
-config ZMK_SPLIT
+config SHIELD_6x5_MANUFORM
     default y
 
 endif
