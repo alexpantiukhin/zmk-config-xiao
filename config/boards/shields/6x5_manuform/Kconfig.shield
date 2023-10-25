@@ -1,6 +1,3 @@
-config SHIELD_6x5_MANUFORM
-    def_bool $(shields_list_contains,my_board)
-
 config SHIELD_6x5_MANUFORM_LEFT
     def_bool $(shields_list_contains,6x5_manuform_left)
 
