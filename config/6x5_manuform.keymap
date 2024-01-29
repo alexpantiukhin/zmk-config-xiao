@@ -23,8 +23,8 @@
 
             bindings = <
 &bt BT_NXT  &kp W        &kp E       &kp R      &kp T        &kp A  &kp W  &kp E      &kp T  &kp S
-&kp Q       &kp S        &kp D       &kp F      &kp G        &kp F  &kp G  &kp R      &kp Q  &kp Y
-&kp A       &kp X        &kp C       &kp V      &kp B        &kp X  &kp C  &kp V      &kp B  &kp D
+&bt BT_CLR  &kp S        &kp D       &kp F      &kp G        &kp F  &kp G  &kp R      &kp Q  &kp Y
+&sys_reset  &kp X        &kp C       &kp V      &kp B        &kp X  &kp C  &kp V      &kp B  &kp D
 &kp Z       &kp GRAVE    &kp SQT     &kp LCTRL  &kp SPACE    &kp B  &kp V  &kp GRAVE  &kp J  &kp F
 &none       &bt BT_CLR   &bt BT_NXT  &mo 1      &kp TAB      &kp X  &kp C  &kp A      &kp S  &kp D
 &none       &bootloader  &sys_reset  &kp DEL    &kp LSHFT    &kp Z  &kp G  &kp F      &kp Z  &kp X
