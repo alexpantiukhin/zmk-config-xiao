@@ -3,7 +3,7 @@
 #include "6x5_manuform.dtsi"
 
 &default_transform {
-    col-offset = <7>;
+    col-offset = <6>;
 };
  
 &kscan0 {
