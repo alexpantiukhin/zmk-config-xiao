@@ -22,7 +22,7 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |   | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESCAPE  &kp W        &kp E       &kp R      &kp T        &kp A  &kp W  &kp E      &kp T  &kp S
+&bt BT_NXT  &kp W        &kp E       &kp R      &kp T        &kp A  &kp W  &kp E      &kp T  &kp S
 &kp Q       &kp S        &kp D       &kp F      &kp G        &kp F  &kp G  &kp R      &kp Q  &kp Y
 &kp A       &kp X        &kp C       &kp V      &kp B        &kp X  &kp C  &kp V      &kp B  &kp D
 &kp Z       &kp GRAVE    &kp SQT     &kp LCTRL  &kp SPACE    &kp B  &kp V  &kp GRAVE  &kp J  &kp F
